@@ -9,5 +9,10 @@ Genera grids con la siguientes características:
 ## Uso
 
 ```clj
-(make-svg 0) ;; crea la imagen correspondiente al minuto 0 a 2
+;; crea la imagen correspondiente al minuto 0 a 2 con el nombre `0-2.svg`
+(make-svg 0)
 ```
+
+Las imágenes se guardan en la carpeta `output/`
+
+El `index.html` puede ser abierto en un navegador para visualizar las imagenes.
